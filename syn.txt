@@ -1,2 +1,2 @@
 sprint jog run
-laptop, notebook, thinkpad
+Laptop, nOtebook, thinkpad
