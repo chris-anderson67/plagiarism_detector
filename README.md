@@ -2,7 +2,7 @@
 #### Python Command Line app for checking similarity between two text files.
 
 ## Usage:
-  - python PlagiarismDetector.py inputtextfile  referencetextfile synonymstextfile [Tuple Size]
+  - python plagiarismdetector.py inputtextfile  referencetextfile synonymstextfile [Tuple Size]
   - Python 2.7 Recommended
 
 ## Modules:
@@ -24,3 +24,4 @@
   - Providing a tuple size greater than the number of words in either the input or reference
     file is also a C.R.E.
   - Command line arguments are assumed to only be entered in the order specified.
+  - Input is assumed to be UTF-8

@@ -12,7 +12,7 @@ from similaritycalc import SimilarityCalculator
 def main():
     # Naive CLA handling - for larger applications we should switch to get-opt
     if len(sys.argv) < 4 or len(sys.argv) > 5:
-        print "Usage: ..."
+        print "Usage: plagiarismdetector.py inputtextfile  referencetextfile synonymstextfile [Tuple Size]"
         sys.exit(1)
     if len(sys.argv) == 5: 
         tupleSize = int(sys.argv[4])
@@ -41,7 +41,7 @@ def main():
         sys.exit(1)
     except ValueError:
         print "Provided 0 or negative value for tupleSize, or empty string to" 
-        print "SimilarityCalculator. Check for empty Files, and make sure tupleSize excedes"
+        print "SimilarityCalculator. Check for empty Files, and make sure tupleSize exceeds"
         print "the number of words in both input file and reference file."
         sys.exit(1)
 
